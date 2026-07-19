@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://sahayak-ai-production-dcc6.up.railway.app';
 const Logo = ({ size = 40 }) => (
   <svg width={size} height={size} viewBox="0 0 280 220" className="shrink-0">
     <defs>
