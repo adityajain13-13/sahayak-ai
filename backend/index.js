@@ -23,7 +23,7 @@ app.post('/api/analyze', async (req, res) => {
       return res.status(400).json({ error: 'Problem text zaroori hai' });
     }
 
-    const model = genAI.getGenerativeModel({ model: 'gemini-flash-latest' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
 
     const prompt = `Tum ek civic problem classifier ho. Ye problem text padho aur SIRF JSON format me jawab do, koi extra text nahi, koi markdown nahi:
 
